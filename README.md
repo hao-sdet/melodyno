@@ -1,3 +1,4 @@
+<img src="screenshots/main.png" width="150"> <img src="screenshots/login.png" width="150"> <img src="screenshots/home.png" width="150"> <img src="screenshots/explore.png" width="150"> <img src="screenshots/notification.png" width="150"> <img src="screenshots/profile.png" width="150"> 
 # Quick Start
 Install dependencies
 ```
@@ -23,22 +24,22 @@ iOS: Latest Xcode and iOS Simulator
 Android: Android Studio / SDK / Emulator
 Download and Install Android Studio
 ```
-    https://developer.android.com/studio
+https://developer.android.com/studio
 ```
 Open Android Studio
 ```
-    1. Go to Configure then SDK manager
-    2. Click "Show package details"
-    3. Enable Android 6.0 (Marshmallow), and INSIDE Marshmallow, enable
-        a. Google APIs
-        b. Android SDK platform 23
-        c. Sources for Android 23
-        d. Intel x86 Atom_64 System Image
-        e. Google APIs Intel x86 Atom_64 System Image
-    4. Do the above for Android 7 and 8 as well (not necessary, but good to have for the future)
-    5. Next, on SDK tools tab, click "Show package details", look for "Android SDK Build-Tools", and make sure that 
-        23.0.1 is selected
-    6. Click apply.
+1. Go to Configure then SDK manager
+2. Click "Show package details"
+3. Enable Android 6.0 (Marshmallow), and INSIDE Marshmallow, enable
+    a. Google APIs
+    b. Android SDK platform 23
+    c. Sources for Android 23
+    d. Intel x86 Atom_64 System Image
+    e. Google APIs Intel x86 Atom_64 System Image
+4. Do the above for Android 7 and 8 as well (not necessary, but good to have for the future)
+5. Next, on SDK tools tab, click "Show package details", look for "Android SDK Build-Tools", and make sure that 
+    23.0.1 is selected
+6. Click apply.
 ```
 Append to ~/.bash_profile:
 ```
@@ -47,8 +48,10 @@ export PATH=/Users/<your_computer_name>/Library/Android/sdk/platform-tools:$PATH
 ```
 and run `source ~/.bash_profile`
 Create an AVD
-    1. Go to Configure then AVD manager
-    2. Click '+ Create Virtual Device'
+```
+1. Go to Configure then AVD manager
+2. Click '+ Create Virtual Device'
+```
 
 ## Install Node & NPM
 Install NVM
@@ -69,7 +72,7 @@ Install Node
 nvm install 10
 ```
 
-## Setting Up ESLint (Can be done later)
+## Setting Up ESLint
 Source:
 ```
 https://github.com/expo/eslint-config-universe
